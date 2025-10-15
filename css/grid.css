@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header, nav, footer {
+    padding: 10px;
+    text-align: center;
+}
+
+header, footer {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: antiquewhite;
+}
+
+main {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+article {
+    flex: 3;
+    background-color: yellowgreen;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+aside {
+    flex: 1;
+    background-color: bisque;
+    border: 3px solid black;
+    border-radius: 10px;
+}
